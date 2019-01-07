@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CEAFF28521E37C3800A5A4F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFF28421E37C3800A5A4F9 /* AppDelegate.swift */; };
-		CEAFF28721E37C3800A5A4F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFF28621E37C3800A5A4F9 /* ViewController.swift */; };
 		CEAFF28A21E37C3800A5A4F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFF28821E37C3800A5A4F9 /* Main.storyboard */; };
 		CEAFF28C21E37C3A00A5A4F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFF28B21E37C3A00A5A4F9 /* Assets.xcassets */; };
 		CEAFF28F21E37C3A00A5A4F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFF28D21E37C3A00A5A4F9 /* LaunchScreen.storyboard */; };
 		CEAFF29A21E37C3A00A5A4F9 /* Mascle_GachaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFF29921E37C3A00A5A4F9 /* Mascle_GachaTests.swift */; };
 		CEAFF2A521E37C3A00A5A4F9 /* Mascle_GachaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFF2A421E37C3A00A5A4F9 /* Mascle_GachaUITests.swift */; };
+		CEAFF2BD21E37F6B00A5A4F9 /* Gacha.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFF2BC21E37F6B00A5A4F9 /* Gacha.storyboard */; };
+		CEAFF2BF21E37F7700A5A4F9 /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFF2BE21E37F7700A5A4F9 /* Collection.storyboard */; };
+		CEAFF2C121E37F7F00A5A4F9 /* Config.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFF2C021E37F7F00A5A4F9 /* Config.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		CEAFF28121E37C3800A5A4F9 /* Mascle-Gacha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mascle-Gacha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAFF28421E37C3800A5A4F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEAFF28621E37C3800A5A4F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEAFF28921E37C3800A5A4F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEAFF28B21E37C3A00A5A4F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAFF28E21E37C3A00A5A4F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		CEAFF2A021E37C3A00A5A4F9 /* Mascle-GachaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mascle-GachaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAFF2A421E37C3A00A5A4F9 /* Mascle_GachaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mascle_GachaUITests.swift; sourceTree = "<group>"; };
 		CEAFF2A621E37C3A00A5A4F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAFF2BC21E37F6B00A5A4F9 /* Gacha.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Gacha.storyboard; sourceTree = "<group>"; };
+		CEAFF2BE21E37F7700A5A4F9 /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
+		CEAFF2C021E37F7F00A5A4F9 /* Config.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Config.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,9 @@
 		CEAFF28321E37C3800A5A4F9 /* Mascle-Gacha */ = {
 			isa = PBXGroup;
 			children = (
+				CEAFF2B721E37EB900A5A4F9 /* Classes */,
 				CEAFF28421E37C3800A5A4F9 /* AppDelegate.swift */,
-				CEAFF28621E37C3800A5A4F9 /* ViewController.swift */,
-				CEAFF28821E37C3800A5A4F9 /* Main.storyboard */,
 				CEAFF28B21E37C3A00A5A4F9 /* Assets.xcassets */,
-				CEAFF28D21E37C3A00A5A4F9 /* LaunchScreen.storyboard */,
 				CEAFF29021E37C3A00A5A4F9 /* Info.plist */,
 			);
 			path = "Mascle-Gacha";
@@ -123,6 +125,42 @@
 				CEAFF2A621E37C3A00A5A4F9 /* Info.plist */,
 			);
 			path = "Mascle-GachaUITests";
+			sourceTree = "<group>";
+		};
+		CEAFF2B721E37EB900A5A4F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFF2BB21E37EEF00A5A4F9 /* Model */,
+				CEAFF2B921E37EE400A5A4F9 /* Controller */,
+				CEAFF2B821E37EDB00A5A4F9 /* View */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CEAFF2B821E37EDB00A5A4F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CEAFF2B921E37EE400A5A4F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFF28821E37C3800A5A4F9 /* Main.storyboard */,
+				CEAFF28D21E37C3A00A5A4F9 /* LaunchScreen.storyboard */,
+				CEAFF2BC21E37F6B00A5A4F9 /* Gacha.storyboard */,
+				CEAFF2BE21E37F7700A5A4F9 /* Collection.storyboard */,
+				CEAFF2C021E37F7F00A5A4F9 /* Config.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CEAFF2BB21E37EEF00A5A4F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +269,10 @@
 			files = (
 				CEAFF28F21E37C3A00A5A4F9 /* LaunchScreen.storyboard in Resources */,
 				CEAFF28C21E37C3A00A5A4F9 /* Assets.xcassets in Resources */,
+				CEAFF2C121E37F7F00A5A4F9 /* Config.storyboard in Resources */,
 				CEAFF28A21E37C3800A5A4F9 /* Main.storyboard in Resources */,
+				CEAFF2BD21E37F6B00A5A4F9 /* Gacha.storyboard in Resources */,
+				CEAFF2BF21E37F7700A5A4F9 /* Collection.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +297,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAFF28721E37C3800A5A4F9 /* ViewController.swift in Sources */,
 				CEAFF28521E37C3800A5A4F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
